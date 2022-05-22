@@ -5,13 +5,9 @@ import React from "react";
 
 class Welcome extends React.Component {
 
-    constructor(props) {
-        super(props);
-    }
-    
     render() {
         return (
-            <div>hello world: {this.props.lang}</div>
+            <di>this is welcome page</di>
         );
     }
 }

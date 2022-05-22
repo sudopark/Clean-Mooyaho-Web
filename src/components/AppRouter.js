@@ -13,8 +13,7 @@ class AppRouter extends React.Component {
                 <Router>
                     <div>
                         <Routes>
-                            <Route path="/welcome/ko" element={<Welcome lang="ko"/>}/>
-                            <Route path="/welcome/en" element={<Welcome lang="en"/>}/>
+                            <Route path="/welcome" element={<Welcome/>}/>
                             <Route path="/" element={<App/>}/>
                         </Routes>
                     </div>
