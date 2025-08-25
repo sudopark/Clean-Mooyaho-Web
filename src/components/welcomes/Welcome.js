@@ -1,6 +1,5 @@
 
 import React from "react";
-import { MetaTags } from "react-meta-tags";
 import { useTranslation } from "react-i18next";
 import Helmet from "react-helmet";
 
