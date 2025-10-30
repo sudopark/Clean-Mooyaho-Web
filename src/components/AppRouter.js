@@ -6,6 +6,7 @@ import App from "../App";
 import Welcome from "./welcomes/Welcome";
 import TodoCalendarGuide from "./todoCalendar/todoCalendarGuide";
 import TodoCalendarPrivacyPolicy from "./todoCalendar/privacyPolicy";
+import GoogleCalendarIntegration from "./todoCalendar/googleCalendarIntegration";
 
 class AppRouter extends React.Component {
 
@@ -19,6 +20,7 @@ class AppRouter extends React.Component {
                             <Route path="/" element={<App/>}/>
                             <Route path="/todo-calendar" element={<TodoCalendarGuide />} />
                             <Route path="/todo-calendar/privacy-policy" element={<TodoCalendarPrivacyPolicy />} />
+                            <Route path="/todo-calendar/google-calendar-integration-data-policy" element={<GoogleCalendarIntegration />} />
                         </Routes>
                     </div>
                 </Router>
